@@ -4328,7 +4328,7 @@ body.is-preload #header .image img {
 }
 
 .email-submit-btn {
-  background-color: #358ce2 !important;
+  background-color: #51d26d !important;
   margin-top: 16px;
   width: 100%;
   height: 50px;
@@ -4336,7 +4336,7 @@ body.is-preload #header .image img {
 }
 
 .email-submit-btn:hover {
-  background-color: #0f71d3 !important;
+  background-color: #36cc56 !important;
 }
 
 .my-spotlight {
