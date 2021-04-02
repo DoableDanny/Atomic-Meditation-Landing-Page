@@ -4279,7 +4279,7 @@ body.is-preload #header .image img {
   margin: 40px auto 80px auto;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 980px) {
   .video-wrapper {
     width: 900px;
     height: 506.25px;
