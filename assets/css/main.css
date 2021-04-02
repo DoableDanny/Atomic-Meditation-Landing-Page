@@ -4267,6 +4267,36 @@ body.is-preload #header .image img {
 }
 
 /* My styles */
+
+/* Responsive video with constant 16:9 aspect ratio */
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 40px auto 80px auto;
+}
+
+@media only screen and (min-width: 950px) {
+  .video-wrapper {
+    width: 900px;
+    height: 506.25px;
+    padding: 0;
+  }
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .info-wrapper {
   max-width: 600px;
   margin: 0 auto;
@@ -4301,8 +4331,6 @@ body.is-preload #header .image img {
   background-color: #358ce2 !important;
   margin-top: 16px;
   width: 100%;
-  /* padding-top: 16px;
-  padding-bottom: 16px; */
   height: 50px;
   font-size: 18px;
 }
