@@ -4367,3 +4367,14 @@ body.is-preload #header .image img {
     margin-top: 26px;
   }
 }
+
+.my-link {
+  color: #1b93e3 !important;
+  border-bottom: #1b93e3 2px solid !important;
+  padding-bottom: 2px;
+}
+
+.my-link:hover {
+  color: #0c73b8 !important;
+  border-bottom: #43acf1 2px solid !important;
+}
